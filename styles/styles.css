@@ -1,15 +1,55 @@
+/*----------FLEXBOX----------*/
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    background: white;
+    width: 250px;
+    height: 380px;
+    border-radius: 6px;
+}
+
+body{
+    margin: 0px;
+}
+
+#rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----------FLEXBOX----------*/
+
 /*-----------MOBILE----------*/
 
 /*----------PATTERN----------*/
-button:not(button#sum){
-    position: relative;
+
+button{
     margin: 0.2rem 0.1rem;
     padding: 1rem;
-    width: 3.5rem;
+    width: 3.4rem;
 }
-.calc{
-    width: 50%;
+
+#row4{
+    align-self: flex-start;
+    margin: 0rem 0.25rem;
 }
+
+#row5{
+    align-self: flex-start;
+    margin: 0rem 0.25rem;
+}
+
 /*----------PATTERN----------*/
 
 /*----------DISPLAY----------*/
@@ -19,7 +59,7 @@ button:not(button#sum){
     border-width: 1px;
     border-color: black;
     padding: 0.5rem;
-    margin: 0.2rem;
+    margin: 0.35rem;
     border-radius: 6px;
 }
 #date{
@@ -41,10 +81,11 @@ button:not(button#sum){
 
 /*-----------BUTTON----------*/
 button#sum{
-    padding: 2.8rem 1.35rem;
+    padding: 2.75rem 1.35rem;
     position: absolute;
     margin: 0.2rem 0.35rem;
 }
+
 button{
     border-style: solid;
     border-radius: 6px;
